@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <title>Homepage</title>
+    <script src="https://kit.fontawesome.com/db91298b09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="fond">
+    <header class="fond fc">
         <nav class="navbar navbar-dark bg-transparent border">
             <h1 class="text-white">Cui'zine</h1>
                 <div class="collapse" id="navbarToggleExternalContent">
@@ -37,30 +37,78 @@
 
     </header>
     <section class="sec-1">
-        <h3 class="text-center petit-titre">Derniers Articles</h3>
+        <h3 class="text-center petit-titre fo">Derniers Articles</h3>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <img src="./img/suzette-small.jpg" alt="">
-                    <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                    <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
+                    <h3 class="fc">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                    <p class="fo">La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <img src="./img/metro-small.jpg" alt="">
-                    <h3>Le Métro dessert</h3>
-                    <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
+                    <h3 class="fc">Le Métro dessert</h3>
+                    <p class="fo">Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <img src="./img/metro-small.jpg" alt="">
-                    <h3>Vitaly, le végan italien</h3>
-                    <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
+                    <img src="./img/vitaly-small.jpg" alt="">
+                    <h3 class="fc">Vitaly, le végan italien</h3>
+                    <p class="fo">Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="sec-1 black">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-white">
+                    <h3 class="fc">Catégories</h3>
+                    <div class="d-flex flex-column fo para">
+                        <p><u>Revues</u></p>
+                        <p><u>Recettes</u></p>
+                        <p><u>Découvertes</u></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 text-white">
+                    <h3 class="fc">Archives</h3>
+                    <div class="d-flex flex-column fo para">
+                        <p><u>2019</u></p>
+                        <p><u>2018</u></p>
+                        <p><u>2017</u></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <div class="form-group text-white">
+                        <label class="fc" for="exampleInputEmail1">Newsletter</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
+                        <button type="submit" class="btn black text-white border">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>        
+            </div>
+            <div class="row">
+                <div class="col text-white fc">
+                    <h6>Partager</h6>
+                    <div class="container d-flex">
+                        <div class="box justify-content-center align-items-center"><i class="fab fa-facebook-square"></i></div>
+                        <div class="box"><i class="fab fa-instagram"></i></div>
+                        <div class="box"><i class="fab fa-youtube"></i></div>
+                        <div class="box"><i class="fab fa-twitter"></i></div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
     </section>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

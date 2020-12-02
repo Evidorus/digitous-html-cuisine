@@ -21,3 +21,27 @@
 .row div img{
     width: 100%;
 }
+
+.black{
+    background: black;
+}
+
+.box{
+    padding: 3px;
+    background: white;
+    margin-right: 2px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    font-weight: lighter;
+}
+
+i{
+    color: black;
+    font-size: small;
+}
