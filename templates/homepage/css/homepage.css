@@ -1,0 +1,12 @@
+.fond{
+    background: linear-gradient(90deg, rgba(2,0,36,0.7875525210084033) 100%, rgb(3, 3, 3) 100%), 
+                url('./../header.jpg') no-repeat center / cover;
+    height: 400px;
+}
+
+.logo{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin: 50px 0 10px 0;
+}
