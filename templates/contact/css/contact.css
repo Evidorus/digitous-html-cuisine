@@ -1,0 +1,20 @@
+iframe{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.fond{
+    background: linear-gradient(90deg, rgba(2,0,36,0.7875525210084033) 100%, rgb(3, 3, 3) 100%), 
+                url('./../../homepage/Img/header.jpg') no-repeat center / cover;
+    height: 400px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 50px 0 10px 0;
+}
+
+.black{
+    background: black;
+}
